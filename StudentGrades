@@ -1,0 +1,43 @@
+public class StudentGrades {
+    public static void main (String[] args) {
+        System.out.println("//////////////////" + "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
+
+        System.out.println("==         Student Points         ==");
+
+        System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" + "//////////////////");
+
+        System.out.println("Name\t\t   Lab\t  Bonus\t  Total \n" +
+                "----\t\t   ---\t  -----\t  -----");
+
+    //public static void Sarah;(String[] args) {}
+        int Lab = 54;
+        int Bonus = 46;
+        int Total = Lab + Bonus;
+        //System.out.print(Total);
+        System.out.println("Sarah\t\t   "+Lab+"\t  " + Bonus + "\t  " + Total);
+        
+        int Lab2= 20;
+        int Bonus2 = 36;
+        int Total2 = Lab2 + Bonus2;
+        //System.out.print(Total);
+        System.out.println("Sarah2\t\t   "+Lab2+"\t  " + Bonus2 + "\t  " + Total2);
+        
+        int Lab3 = 34;
+        int Bonus3 = 47;
+        int Total3 = Lab3 + Bonus3;
+        //System.out.print(Total);
+        System.out.println("Sarah3\t\t   "+Lab3+"\t  " + Bonus3 + "\t  " + Total3);
+        
+        int Lab4 = 21;
+        int Bonus4 = 66;
+        int Total4 = Lab4 + Bonus4;
+        //System.out.print(Total);
+        System.out.println("Sarah4\t\t   "+Lab4+"\t  " + Bonus4 + "\t  " + Total4);
+        
+        int Lab5 = 91;
+        int Bonus5 = 18;
+        int Total5 = Lab5 + Bonus5;
+        //System.out.print(Total);
+        System.out.println("Sarah5\t\t   "+Lab5+"\t  " + Bonus5 + "\t  " + Total5);
+    }
+}
