@@ -1,0 +1,23 @@
+public class StudentGrades {
+    public static void main (String[] args){
+        System.out.println("//////////////////" + "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
+
+        System.out.println("==         Student Points         ==");
+
+        System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" + "//////////////////");
+
+        System.out.println("Name\t\t   Lab\t  Bonus\t  Total \n" +
+                "----\t\t   ---\t  -----\t  -----");
+
+    //public class Sarah {
+        int Lab = 54;
+        int Bonus = 46;
+        int result = Lab + Bonus;
+        System.out.print(result);
+
+        System.out.println("");
+
+        //System.out.println("----\t\t   ---\t  -----\t  -----");
+    }
+    }
+}
