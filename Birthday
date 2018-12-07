@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Birthday {
+    public static void main (String[] args){
+        String name;
+        int age;
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter your name: ");
+        name = scan.nextLine();
+
+        System.out.println("Enter your age: ");
+        age = scan.nextInt();
+
+        System.out.println("Your name is " + name + " and you are " + age + " years old.");
+    }
+}
