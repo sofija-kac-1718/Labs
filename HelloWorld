@@ -1,0 +1,7 @@
+public class HelloWorld {
+    public static void main (String[] args){
+        int h = (int)((Math.random() * 8) * 45);
+        System.out.println(h);
+
+    }
+}
