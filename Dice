@@ -1,0 +1,18 @@
+public class Dice {
+
+    public static void main (String[] args){
+        int diceOne;
+        int diceTwo;
+        int total;
+
+        diceOne = (int)(Math.random()*6) + 1;
+        System.out.println("Your first dice was a " + diceOne);
+
+        diceTwo = (int)(Math.random()*6) + 1;
+        System.out.println("Your first dice was a " + diceTwo);
+
+        total = diceOne + diceTwo;
+
+        System.out.println("Your dice total is: " + total);
+    }
+}
