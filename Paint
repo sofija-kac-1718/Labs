@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Paint
+{
+    public static void main(String[] args)
+    {
+        final int COVERAGE = 350;
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("What is the length of your room? ");
+        int length = scan.nextInt();
+        System.out.println("What is the width of your room? ");
+        int width = scan.nextInt();
+        System.out.println("What is the height of your room? ");
+        int height = scan.nextInt();
+
+
+        double totalSqFt = length * width * height;
+        double paintNeeded = totalSqFt / 350;
+
+        //Compute the amount of paint needed
+
+        System.out.println("Your room had a length of " + width + " a length of "+length + " and a height of "+ height);
+        System.out.println(paintNeeded + " gallons needed to provide full paint coverage.");
+
+    }
+}
